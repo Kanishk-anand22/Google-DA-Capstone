@@ -1,0 +1,31 @@
+---
+title: "Capstone cyclistic analysis"
+author: "Kanishk"
+date: "21/01/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Cyclistic trip data analysis(R&SQL)
+
+This document, generated using an rmd file, demonstrates the problem, process, codes and visualizations for the complete analysis of the cyclistic trip data.
+
+
+```{r eval=FALSE}
+library(tidyverse)
+library(lubridate)
+library(ggplot2)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
