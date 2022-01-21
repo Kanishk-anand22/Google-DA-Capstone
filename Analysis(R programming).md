@@ -103,4 +103,4 @@ df_v2 %>%
   arrange(member_casual, weekday) %>%
   ggplot(aes(x=weekday, y=average_duration, fill=member_casual)) + geom_col(position="dodge")
 ```
-![Visual](avgride.jpeg)
+![Visual](avg.jpeg)
