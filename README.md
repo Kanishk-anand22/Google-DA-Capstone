@@ -18,4 +18,3 @@ Last 12 months [ride data](https://divvy-tripdata.s3.amazonaws.com/index.html) w
 
 Population: All stations, bikes and rides across chicago.
 Sample: Data captured across all these stations for the last 12 months.
-
