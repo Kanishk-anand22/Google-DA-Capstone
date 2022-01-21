@@ -18,3 +18,6 @@ Last 12 months [ride data](https://divvy-tripdata.s3.amazonaws.com/index.html) w
 
 Population: All stations, bikes and rides across chicago.
 Sample: Data captured across all these stations for the last 12 months.
+
+## Tools used
+This project was carried to completion sing SQL and the process was then mirrored using R to get habd-on experience in both languages.
