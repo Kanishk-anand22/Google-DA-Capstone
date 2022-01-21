@@ -104,3 +104,13 @@ df_v2 %>%
   ggplot(aes(x=weekday, y=average_duration, fill=member_casual)) + geom_col(position="dodge")
 ```
 ![Visual](avg.jpeg)
+
+Exporting analyzed data to an excel file
+
+```{r eval=FALSE}
+write.xlsx(mean_ridel, file="Analyzed_data.xlsx", sheetName = "mean_ridelen", row.names=FALSE)
+write.xlsx(max_ridel, file="Analyzed_data.xlsx", sheetName = "max_ridelen", append=TRUE, row.names=FALSE)
+write.xlsx(min_ridel, file="Analyzed_data.xlsx", sheetName = "min_ridelen", append=TRUE, row.names=FALSE)
+write.xlsx(median_ridel, file="Analyzed_data.xlsx", sheetName = "median_ridelen", append=TRUE, row.names=FALSE)
+write.xlsx(as.data.frame(agg_wkd), file = "Analyzed_data.xlsx", append=TRUE, col.names = TRUE, row.names=FALSE)
+```
