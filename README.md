@@ -17,5 +17,5 @@ To do that an understanding will be required on **How do annual members and casu
 Last 12 months [ride data](https://divvy-tripdata.s3.amazonaws.com/index.html) was used for this project.
 
 Population: All stations, bikes and rides across chicago.
-Sample: Data captured across all these stations for the last 6 months.
+Sample: Data captured across all these stations for the last 12 months.
 
